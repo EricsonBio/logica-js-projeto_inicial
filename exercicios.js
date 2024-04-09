@@ -42,7 +42,7 @@ function mostrarInveso(arr){
 alert(mostrarInveso(lista))
 
 //4
-let arrFiltro = lista.filter((valor, indece, self) => {
+let arrFiltro = lista.filter((valor, indice, self) => {
     return self.indexOf(valor) === indice;
 });
 
